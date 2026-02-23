@@ -1,0 +1,23 @@
+---
+title: "EBS Pollock Assessment Workflow"
+---
+
+# Overview
+
+This site documents a year-structured workflow for updating assessment inputs,
+running base and alternative model scenarios, and summarizing outputs.
+
+# Yearly process
+
+1. Create/update `YEAR/runs/data` (single annual input source).
+2. Define scenarios in `YEAR/runs/<scenario>` with local `control.dat`.
+3. Run scenarios in fixed order: base first, then alternatives.
+4. Summarize outputs with `R/pmYY.R` and archive comparison tables.
+
+# Commands
+
+```bash
+bash scripts/new_year_scaffold.sh 2026 2025
+bash scripts/run_scenarios.sh 2025
+Rscript R/pm25.R
+```

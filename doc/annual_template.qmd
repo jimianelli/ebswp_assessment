@@ -1,0 +1,19 @@
+---
+title: "Annual EBS Pollock Assessment Update"
+---
+
+# Data updates
+
+Document annual updates made under `YEAR/runs/data`.
+
+# Model set
+
+List scenario names, rationale, and key parameter changes.
+
+# Results summary
+
+Use outputs from `doc/data/model_overview_YEAR.csv`.
+
+# Sensitivity conclusions
+
+Summarize implications for management quantities and retrospective behavior.

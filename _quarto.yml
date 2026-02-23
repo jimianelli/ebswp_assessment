@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EBS Pollock Assessment"
+  repo-url: "https://github.com/afsc-assessments/ebswp_assessment"
+  repo-actions: [source]
+
+format:
+  html:
+    toc: true
+    code-fold: true
+
+execute:
+  freeze: auto
