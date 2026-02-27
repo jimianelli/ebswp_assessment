@@ -1,10 +1,10 @@
-UseVAST_AGE_Hulson_ISS
-../data/pm_25.base.dat
+New_2025
+../data/pm_25.dat
 ../data/selvar25.dat
 control.dat
 ../data/pm_fmsy_alt.dat
 ../data/cov_2025.dat
-../data/wtage2025.dat
+../data/wtage2024.dat
 ../data/surveycpue.dat
-../data/temp_paul25.dat
+../data/temp_paul23.dat
 ../data/q_bts.dat
